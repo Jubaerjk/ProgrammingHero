@@ -1,0 +1,13 @@
+button{
+    border: none;
+    background-color: none;
+    color: none;
+}
+
+button a{
+    display:block;
+    padding: 10px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    font-size: 20px;
+}

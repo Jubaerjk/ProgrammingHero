@@ -1,0 +1,46 @@
+/* 
+*Only Header Section 
+*/
+
+/* Universal Resetter */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 52px 32px;
+    justify-items: center;
+}
+
+header h1{
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+nav ul{
+    list-style-type: none;
+
+    font-size: 18px;
+    
+    padding: 10px;
+    
+    display: flex;
+    gap: 0px 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.hero-banner{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 255, 0, 0.1);
+}
+.hero-image{
+    border-radius: 12px;
+}
+

@@ -1,0 +1,99 @@
+
+/* 
+*Accordian Components
+*/
+
+
+/* Accordion Section  */
+#accordion{
+    margin: 44px 32px;
+    padding: 12px;
+}
+ 
+.float-accordion{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgb(255, 217, 0);
+
+    margin-bottom: -1px;
+}
+
+/* Title  */
+.FAQs{
+    font-size: 28px;
+
+    margin-bottom: 24px;
+
+}
+
+/* Content  */
+.description{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+    column-gap: 24px;
+    row-gap: 24px;
+
+    justify-content: center;
+    align-content: center;
+
+    margin-bottom: 32px;
+
+    background-color: rgb(39, 39, 39);
+
+    /* 
+    *bg-image contradicts wtih page content creation purpose  
+    */
+    /* background-image: url("../Images/zenitsu-agatsuma-5120x2880-24472.png");
+    background-repeat: no-repeat; */
+
+    box-shadow: 0px 0px 12px 0px rgba(52, 133, 255, 0.5);
+}
+.shadow-number{
+    font-size: 18px;
+    font-weight: bold;
+
+    /* color tint can be used to create same effect */
+    opacity: 0.3;
+
+}
+
+.description-title{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.description-details{
+    line-height: 1.5;
+}
+
+.bullet-points{
+    padding: 4px 20px;
+    opacity: 0.8;
+}
+
+button{
+    border: none;
+    background-color: none;
+}
+
+.desc-02{
+    border-top: 5px solid teal;
+}
+
+.description-details{
+    display: none;
+}
+
+/* use JS for this action for better UX  */
+.open{
+    display: block;
+}
+.opened{
+    font-size: 22px;
+    color: rgb(76, 88, 255);
+    opacity: 1;
+    
+}
